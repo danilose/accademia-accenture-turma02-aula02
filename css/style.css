@@ -239,8 +239,7 @@ i {
 }
 
 img {
-  height: 481px;
-  width: 320px;
+  max-width: 100%
 }
 
 section {
