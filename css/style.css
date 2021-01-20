@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container-paralax {
+  height: 100vh;
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+.content-paralax--data {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-img--version--1 {
+  background-image: url('https://images.unsplash.com/photo-1611071008259-f53bbe059bfa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80');
+}
+
+.bg-img--version--2 {
+  background-image: url('https://images.unsplash.com/photo-1611068120838-7e5eb95c1426?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+
+.bg-img--version--3 {
+  background-image: url('https://images.unsplash.com/photo-1611007761524-a7ff631b3a6b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+}
+
+
+.container-header {
+  text-align: center;
+}
+
+.content-default {
+  padding: 20px;
+}
+
+.content-flex {
+  display: flex;
+}
+
+.content-flexgrid {
+  display: grid;
+}
+
+.content-flex--direction {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex: 1;
+  margin: 2px;
+  width: 33%;
+  justify-content: center;
+}
+
+.content-flex--reverse {
+  flex-direction: row-reverse;
+}
+
+.content-space--default {
+  padding: 20px;
+  margin: 2;
+  border-radius: 5px;
+}
+
+.content-justify {
+  justify-content: center;
+}
+
+.content-justify--sa {
+  justify-content: space-around;
+}
+
+.content-align {
+  align-items: flex-start;
+}
+
+/* Left main*/
+.content-left--main {
+  position: fixed;
+  left: 0px;
+  top: 30%;
+  padding: 15px 5px 5px 15px;
+  width: 60px;
+  height: 250px;
+  background-color: #9000c5;
+  border-radius: 0px 15px 15px 0px;
+  display: grid;
+  z-index: 3;
+  box-shadow: 16px 7px 16px -12px rgba(0, 0, 0, 0.701);
+  text-decoration: none;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content-top--button {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: #9000c5;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  transition: 1s;
+
+}
+
+.content-top--button:hover {
+  background-color: #fd7deb;
+  transition: 1s;
+}
+
+i {
+  font-size: 40px;
+  color: #FFF;
+}
+
+/* flex item */
+.flex-item--1 {
+  flex: 1;
+  margin: 2px;
+}
+
+.flex-item--2 {
+  flex: 2;
+  margin: 2px;
+}
+
+.flex-item--3 {
+  flex: 3;
+  margin: 2px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-color--purple {
+  background-color: #9000c5;
+  color: #FFF;
+}
+
+.bg-color--yellow {
+  background-color: #e9c93b;
+  color: #FFF;
+}
+
+.bg-color--pink {
+  background-color: #fd7deb;
+  color: #FFF;
+}
+
+.bg-color--blue {
+  background-color: #173364;
+  color: #FFF;
+}
+
+.container--duas-colunas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container--duas-colunas-reverse {
+  flex-direction: row-reverse;
+}
+
+.container--tres-colunas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container--video {
+  display: flex;
+  justify-content: center;
+}
+
+.container--img {
+  max-width: 320px;
+}
+
+.content-center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  height: 481px;
+  width: 320px;
+}
+
+section {
+  padding: 20px;
+}
+
+.container--column {
+  padding: 10px;
+}

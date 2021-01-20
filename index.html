@@ -1,0 +1,175 @@
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS aula #02</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/8ac0ce319f.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+  <header id="top" class="container bg-color--purple content-default">
+    <div class="container-header content-default">
+      <h1>Iniciando com flexbox</h1>
+      <p>Primeiro elemento</p>
+    </div>
+  </header>
+
+  <div id="01" class="container bg-color--blue text-center content-default">
+    <h2>Display Flex</h2>
+    <h2>Display Flex Wrap</h2>
+
+    <div class="content-flex content-default">
+      <div class="content-flex bg-color--purple flex-wrap text-center">
+        <h3>#01</h3>
+      </div>
+      <div class="content-flex bg-color--purple flex-wrap text-center">
+        <h3>#02</h3>
+      </div>
+      <div class="content-flex bg-color--purple flex-wrap text-center">
+        <h3>#03</h3>
+      </div>
+    </div>
+
+    <h2>Display: grid | wrap</h2>
+    <div class="content-flexgrid content-default">
+      <div class="bg-color--purple content-flex--direction flex-wrap">
+        <h3>1</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-wrap">
+        <h3>2</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-wrap">
+        <h3>3</h3>
+      </div>
+    </div>
+
+    <h2>Display grid | flexitem</h2>
+    <div class="content-flexgrid content-default">
+      <div class="bg-color--purple content-flex--direction flex-item--1">
+        <h3>1</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-item--1">
+        <h3>2</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-item--1">
+        <h3>3</h3>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container bg-color--pink text-center content-default">
+    <h2>Disply flex | flex item</h2>
+    <div class="content-flex content-default">
+      <div class="bg-color--purple content-flex--direction flex-item--1">
+        <h3>F1</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-item--2">
+        <h3>F2</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-item--3">
+        <h3>F3</h3>
+      </div>
+    </div>
+
+    <h2>Disply flex-direction | flex item</h2>
+    <div class="content-flex content-default content-flex--reverse">
+      <div class="bg-color--purple content-flex--direction flex-item--1">
+        <h3>F1</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-item--2">
+        <h3>F2</h3>
+      </div>
+      <div class="bg-color--purple content-flex--direction flex-item--3">
+        <h3>F3</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container content-default bg-color--yellow text-center">
+    <h2>Justify Content</h2>
+    <div class="content-flex content-justify">
+      <div class="bg-color--blue content-space--default">
+        <h3>Bloco 01</h3>
+      </div>
+      <div class="bg-color--blue content-space--default">
+        <h3>Bloco 02</h3>
+      </div>
+      <div class="bg-color--blue content-space--default">
+        <h3>Bloco 03</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container content-default bg-color--yellow text-center">
+    <h2>Align Items</h2>
+    <div class="content-flex content-align content-justify--sa">
+      <div class="bg-color--blue content-space--default">
+        <h3>Bloco 01</h3>
+        <h3>Bloco 01</h3>
+        <h3>Bloco 01</h3>
+      </div>
+      <div class="bg-color--blue content-space--default">
+        <h3>Bloco 02</h3>
+      </div>
+      <div class="bg-color--blue content-space--default">
+        <h3>Bloco 03</h3>
+        <h3>Bloco 03</h3>
+      </div>
+    </div>
+  </div>
+
+  <div id="02" class="container-paralax bg-img--version--1">
+    <div class="container content-default text-center content-align content-paralax--data">
+      <h2>Container com paralax</h2>
+      <p>Texto do paralax</p>
+    </div>
+  </div>
+
+  <div id="03" class="container-paralax bg-img--version--2">
+    <div class="container content-default text-center content-align content-paralax--data">
+      <h2>Container com paralax</h2>
+      <p>Texto do paralax</p>
+    </div>
+  </div>
+
+  <div id="04" class="container-paralax bg-img--version--3">
+    <div class="container content-default text-center content-align content-paralax--data">
+      <h2>Container com paralax</h2>
+      <p>Texto do paralax</p>
+    </div>
+  </div>
+
+  <div class="content-left--main">
+    <a href="#01">
+      <i class="fas fa-rocket"></i>
+    </a>
+    <a href="#02">
+      <i class="fas fa-adjust"></i>
+    </a>
+    <a href="#03">
+      <i class="fas fa-align-left"></i>
+    </a>
+    <a href="#04">
+      <i class="fas fa-anchor"></i>
+    </a>
+    <a href="desafio.html">
+      Desafio
+    </a>
+  </div>
+
+  <div class="content-top--button">
+    <a href="#top">
+      <i class="fas fa-arrow-circle-up" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <footer class="text-center">
+    <p>Danilo Elias © Copyrigth 2021</p>
+  </footer>
+</body>
+</html>
