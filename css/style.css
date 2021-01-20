@@ -249,3 +249,31 @@ section {
 .container--column {
   padding: 10px;
 }
+
+@media only screen and ( max-width: 426px ) {
+  .content-flex {
+    display: flow-root;
+  }
+
+  .flex-wrap {
+    width: 100%;
+  }
+}
+/*
+@media only screen and ( min-width: 600px ) {
+  .bg-color--blue {
+    background-color: aqua;
+    color: #FFFF00;
+  }
+}
+
+@media only screen and ( min-width: 1382px ) {
+  .container {
+    max-width: 60%;
+  }
+
+  .bg-color--purple {
+    background-color: violet;
+  }
+}
+*/
